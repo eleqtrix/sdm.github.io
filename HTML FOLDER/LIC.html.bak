@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+.table-box
+{
+    margin: 50px auto;
+}
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background: #8665f7;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+.last-cell{
+    border-right: none;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+.table-cell last-cell:hover{
+    color: #555;
+}
+
+
+.topleft {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  font-weight: bold;
+}
+
+.navlink{
+  text-decoration: none;
+  margin-rightt: 10px;
+  color: Black;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 11px;
+  }
+}
+
+.name-page{
+	margin: 50px 150px;
+	font-family: sans-serif;
+	font-size: 23px;
+	left: 155px;
+}
+</style>
+<html>
+    <body>
+	 <div class="topleft">
+	 <a href="file:///C:/Users/DELL/Documents/HTML%20FOLDER/LIC.html" class="navlink">BACK</a>
+     </div>
+	<div class="name-page">
+	   <p>Semester: 4</p>
+	   <p>Subject: Linear Integrated Circuit</p>
+	</div>
+	<div class="table-box">
+        	<div class="table-row table-head">
+           	   <div class="table-cell first-cell">
+                	<p>Contents</p>
+            	   </div>
+            	   <div class="table-cell last-cell">
+                	<p>Video Link</p>
+            	   </div> 
+        	</div>
+
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Frequency compensation techniques in opamps</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/d6iibS2u70c?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Effect of slew rate</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/gJNaIJ1A8o8?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Bandwidth and GBW</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/VRg3UYfrNQE?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Frequency compensation</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/EairYvZYUZ0?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Effect of stray capacitance on circuit stability</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/En0uCBPOZOs?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>ntroduction to CMOS Opmaps</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/TYZB9mqpezU?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Stray capacitance and its compensation</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/BO2Hi_miEtM?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>MOS differential pair</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/H_30rW6MHew?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Quantitative Analysis</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/pRfP63oCS3A?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Current mirror circuits</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/7l9HD0VmA3M?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Channel length modulation and cascode stages</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/JUFlCx8j57w?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Cascode current mirror circuits</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/5po9icu_0cI?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Capacitor coupled voltage follower</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/IKCr0ol1W1k?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>High input impedance voltage follower</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/Ia2HBH53tNs?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Design example on high input impedance voltage follower</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/oHMdbBQ91Fg?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Triangular / Square Wave Generator</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/-WDPJ1brlBU?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Introduction to switching circuits using Opamp</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/_GHMmKJ8CZI?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Inverting Schmitt trigger circuit</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/ckUvqhfL1uM?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Non-inverting Schmitt trigger Circuit</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/M6ZjffzDmYc?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Multi vibrators using Opamp</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/yz-GroWpjzk?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>AC inverting amplifier</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/nZTP9ONcK_Y?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Differentiator</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/WY9kY4cvphE?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Integrator</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/Z0W4TM5KFcQ?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Precision rectifier</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/W0qb0CTB-wg?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Clippers</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/yMKAPZMjFV8?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Clampers</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/RQqLK8NBa5Q?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Sample and Hold circuit</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/-1h4m-Lf5YI?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>AC voltage follower</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/hhCLQtQEpOg?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>High input impedance capacitor coupled voltage follower</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/Fkl28w3j1FI?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Precision rectifier</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/BLpAs89hJXg?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Design example of triangular wave generator</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/F65xHYZ-zRY?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Oscillators introduction</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/mFtXOG0Rpf0?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Capacitor coupled non-inverting amplifier</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://youtu.be/zf4GnlTEVUQ?list=PLPoRZZZQFMN8qyV8iLnaafkK0OXhdFfUA">Watch Now</a>
+            </div>   
+        </div>
+
+</div>
+</body>
+</html>
