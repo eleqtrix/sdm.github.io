@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+.table-box
+{
+    margin: 50px auto;
+}
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background: #8665f7;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+.last-cell{
+    border-right: none;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+.table-cell last-cell:hover{
+    color: #555;
+}
+
+.topleft {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  font-weight: bold;
+}
+
+.navlink{
+  text-decoration: none;
+  margin-right: 10px;
+  color: Black;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 11px;
+  }
+}
+
+.name-page{
+	margin: 50px 150px;
+	font-family: sans-serif;
+	font-size: 23px;
+	left: 155px;
+}
+</style>
+
+<html>
+    <body>
+	<div class="topleft">
+	 <a href="file:///C:/Users/DELL/Documents/HTML%20FOLDER/semester_qp.html" class="navlink">BACK</a>
+     </div>
+	   
+	<div class="name-page">
+	   <p>Semester: 3</p>
+	   
+
+	</div>
+	<div class="table-box">
+        	<div class="table-row table-head">
+           	   <div class="table-cell first-cell">
+                	<p>Subjects</p>
+            	   </div>
+            	   <div class="table-cell last-cell">
+                	<p>PDF's</p>
+            	   </div> 
+        	</div>
+            <br>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Analog Electronics (IA Question paper) 2018</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/10Fd45hQPOwwjXw3TLIdHERSQTjg48GbQ/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Analog Electronics (IA Question paper) 2019</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/1-beV4cK2pp0mgM51mhPWkQ_x6FFlVP5z/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Analog Electronics (SEE Question paper) 2019</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/13WBsWTrTixRfhwoYD09kJcUwmQp9BNTp/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Analog Electronics (SEE Question paper) 2022</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/141zuOgULsY6CHYfQigPjSrtB1q4rlcpX/view?usp=sharing">open</a>
+            </div>   
+        </div>
+        <!--
+            
+        -->
+        <br>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Digital Electronics (IA Question paper) 2018</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/10WOuyAodmsGdvXsfRHzaBFuvzDrHKYbJ/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Digital Electronics (IA Question paper) 2019</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/102SHu-E_3fec-t7NjQuHsYaYt5A8FRhM/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Digital Electronics (SEE Question paper)2019</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/13bCqoe_LGFMx6SUHM0_oa9GVj26q2WuX/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Digital Electronics (SEE Question paper)2022</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/141MY8Bw-kqrJ4oXvyzo7msygG5Vo-D_h/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <br>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Electrical and Electronics Measurements (IA Question paper) 2018</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/10JFGeTi-lDBMqcg9DtU-rNw0JnduxcZS/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Electrical and Electronics Measurements (IA Question paper) 2019</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/1-fhzH7ghHXAQnJfEblm-cMT1VsmSdmfl/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Electrical and Electronics Measurements (SEE Question paper)2019</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/13ZTeGQGS6luVYoVnfileAElSIx8nxX0J/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Electrical and Electronics Measurements (SEE Question paper)2022</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/14Bp2C47cWz90IlGUDyEj2pgUSmYkWrIU/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <br>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Electrical Power Generation and Transmission (IA Question paper) 2018</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/10YXB4VhFpR7BsFM81_eAcBY6zKdSXwfm/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Electrical Power Generation and Transmission (IA Question paper) 2019</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/1-dgOq6lzY7o2HDAkezb9RIkUOCwEm6A0/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Electrical Power Generation and Transmission (SEE Question paper)2019</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/13kgN1IQnEMuzK4s5PO1Owpq46EhJp-wU/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Electrical Power Generation and Transmission (SEE Question paper)2022</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/14EtXHttj5jgxhPdRhILYtIcRa_dpjDWB/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <br>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Engineering Mathematics-3 (IA Question paper) 2018</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/10D-5tNYvAVoueCiy7Up30DB34-KoZD4c/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Engineering Mathematics-3 (IA Question paper) 2019</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/1-qSNKIkIjVT3-A86QApSHyxqlHc4Lsb6/view?usp=sharing">open</a>
+            </div>   
+        </div>
+        <br>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Network Analysis (IA Question paper) 2018</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/10F0ZhDsZIQyStvOK0ltXydS-1Wnp9-kq/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Network Analysis (IA Question paper) 2019</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/1-y77ZLi2Z_ce4Ejg4rvW05SYtcrFgKb0/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Network Analysis (SEE Question paper)2019</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/13P7JssXw0FEGRrabZLL4CcQeQpyhhTDE/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Network Analysis (SEE Question paper)2022</p>
+            </div>
+        <div class="table-cell last-cell">
+                <a href="https://drive.google.com/file/d/14ALLu91y-7zl8_PWVDN60-LzQR-ID3WO/view?usp=sharing">open</a>
+            </div>   
+        </div>
+
+    </div>
+</body>
+<div class="topleft">
+    <a href="#" class="navlink">BACK</a>
+    </div>
+</html>
